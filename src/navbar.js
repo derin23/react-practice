@@ -1,10 +1,7 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { ReactDOM } from "react";
 
-function App() {
-  return (
-    <div className="App">
-    
+const navbar = (
     <nav>
         <h1>Bob's Bistro</h1>
         <ul>
@@ -13,8 +10,6 @@ function App() {
             <li>Contact</li>
         </ul>
     </nav>
-    </div>
-  );
-}
+)
 
-export default App;
+export default navbar;
